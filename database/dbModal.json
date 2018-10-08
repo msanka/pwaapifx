@@ -1,0 +1,121 @@
+{
+ "db" : {
+    "appInfo" : {
+      "name" : "",
+      "version" : "",
+      "lastUpdated" : "",
+      "description" : ""
+    },
+    "appRoles" : [
+        {
+          "id" : "",
+          "name" : "",
+          "history" : [
+            {
+              "actionType" : "",
+              "actionDate" : "",
+              "comments" : "",
+              "actionData" : {
+                "userId" : ""
+              }
+            }
+          ]
+        }
+      ],
+    "appResources" : [
+      {
+        "id" : "",
+        "resourceReference" : "",
+        "resourceType" : "url",
+        "isPublic" : true,
+        "roles" : [
+          "role1",
+          "role2"
+        ]
+      }
+    ],
+    "appUsers" : [
+      {
+        "id": "123456",
+        "firstName" : "Natarajan",
+        "lastName" : "Siva",
+        "nickName" : "Nat",
+        "userProfile" : {
+          "dateOfBirth" : "",
+          "emailIds" : [
+            {
+              "id" : "id1@test.com",
+              "type" : "primary"
+            },
+            {
+              "id" : "id2@test.com",
+              "type" : "secondary"
+            }
+          ],
+          "phoneNumbers" : [
+            {
+              "number" : "",
+              "type" : "home"
+            },
+            {
+              "number" : "",
+              "type" : "mobile"
+            },
+            {
+              "number" : "",
+              "type" : "work"
+            }
+            ],
+          "addresses" : [
+            {
+              "line1" : "",
+              "line2" : "",
+              "city" : "",
+              "state" : "",
+              "zipcode" : "",
+              "type" : "home"
+            },
+            {
+              "line1" : "",
+              "line2" : "",
+              "city" : "",
+              "state" : "",
+              "zipcode" : "",
+              "type" : "work"
+            }
+          ]
+        },
+        "authenticationProfile" : {
+          "userID" : "",
+          "password" : "",
+          "history" : [
+            {
+              "actionDate" : "",
+              "actionType" : "",
+              "actionComments"   : ""
+            }
+          ]
+        },
+        "authorizationProfile" : [
+          {
+            "appId" : "",
+            "roles" : [
+              "role1",
+              "role1"
+            ]
+          }
+        ],
+        "protectedFields" : [
+           "userProfile.emailIds.id",
+           "userProfile.phoneNumbers.number",
+           "userProfile.addresses.line1",
+           "userProfile.addresses.line2",
+           "userProfile.addresses.city",
+           "userProfile.addresses.state",
+           "userProfile.addresses.zipcode",
+           "authenticationProfile.password"
+          ]
+      } 
+    ]
+  } 
+}
